@@ -9,14 +9,14 @@ describe('Book', function () {
   });
 
   it('should have a title', function () {
-    assert.strictEqual(book.title, 'A Tale of Two Cities');
+    strictEqual(book.title, 'A Tale of Two Cities');
   });
 
   it('should have an author', function () {
-    assert.strictEqual(book.author, 'Charles Dickens');
+    strictEqual(book.author, 'Charles Dickens');
   });
 
   it('should have a genre', function () {
-    assert.strictEqual(book.genre, 'Historical');
+    strictEqual(book.genre, 'Historical');
   });
 });
